@@ -73,4 +73,14 @@
 		border-color: $light-opacity-light-800;
 		border-left-color: transparent;
 	}
+
+	.is-navigate-mode & {
+		border-color: $blue-medium-focus;
+		border-left-color: transparent;
+	}
+}
+
+.editor-block-list__layout .is-selected.is-navigate-mode .reusable-block-edit-panel {
+	border-color: $blue-medium-focus;
+	border-left-color: transparent;
 }
